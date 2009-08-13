@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-
+#To run, chmod the script to 777
+#You can actually download any version of Drupal, by default it will download the latest version of 6 but you can also do ./create_drupal_testsite.sh HEAD to get Drupal 7
 #download CVS version of Drupal 6 to the test directory
 cvs -z6 -d:pserver:anonymous:anonymous@cvs.drupal.org:/cvs/drupal co -d drupal_testing -r $1 drupal
 
